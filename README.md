@@ -72,12 +72,12 @@ customRestTemplater.options({
 ## 3. Methods added to the Response Object
 
 |Method|Description|
-|---|---|---|
+|---|---|
 |customRest|creates the response and tests if the object is empty for sending a successful or not status code|
 |customRestSuccess|creates the response and sends a successful status code|
 |customRestSuccess|creates the response and sends a non successful status code|
 
-All then methods have the following parameters
+All the methods have the following parameters
 
 |Parameter|Type|Default Value|Required|Description|
 |---|---|---|---|---|
