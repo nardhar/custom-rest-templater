@@ -201,8 +201,9 @@ res.customRestFailure({name: 'myName'});
 _Response_
 ```
 status: 404
-body: {"data":{},"success":true,"message":"Not Found"}
+body: {"data":null,"success":true,"message":"Not Found"}
 ```
+Here data is sent as null because of the template function
 
 **Non Successful Response on non empty object for a GET Request with custom status**
 
@@ -211,12 +212,11 @@ If a non empty object is sent
 res.customRestFailure({name: 'myName'}, {status: 400});
 ```
 _Response_
-
-Here data is sent as null because of the template function
 ```
 status: 400
 body: {"data":null,"success":true,"message":"Bad request"}
 ```
+Here data is sent as null because of the template function
 
 ## 5. Contact
 
