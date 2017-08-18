@@ -1,0 +1,35 @@
+{
+  "name": "custom-rest-templater",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nardhar/custom-rest-templater.git"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "api",
+    "response",
+    "http"
+  ],
+  "author": "nardhar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nardhar/custom-rest-templater.git/issues"
+  },
+  "homepage": "https://github.com/nardhar/custom-rest-templater.git)",
+  "dependencies": {
+    "builtin-status-codes": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~3.5.0",
+    "supertest": "~3.0.0",
+    "express": "~4.15.4",
+    "should": "^11.2.1"
+  }
+}
